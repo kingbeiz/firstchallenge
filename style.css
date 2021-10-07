@@ -1,0 +1,143 @@
+body{
+    text-align: center;
+    margin: 3rem 1rem;
+    color: #707070;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.topcontainer{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 3rem;
+    color: purple;
+}
+.head-subtitle{
+    font-size: 1.3rem;
+}
+.stargroup{
+    
+  
+}
+.starcotain{
+    background-color: plum;
+    border-radius: 10px;
+    color: purple;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: .5rem auto;
+    display: flex;
+    flex-direction: column;
+}
+.star{
+    font-size: .825rem;
+    padding-top: .5rem;
+    margin-bottom: .5rem;
+}
+.rate{
+    font-size: .825rem;
+    margin-top: .5rem;
+    padding-bottom: .5rem;
+}
+.secondcontainer{
+    
+    display: flex;
+    flex-direction: column;
+}
+.card1,.card2,.card3{
+    background-color: purple;
+    border-radius: 10px;
+    color: white;
+    padding: 40px;
+    margin-bottom: 2rem;
+}
+
+.cardhead-avatar{
+    display: flex;
+    text-align: left;
+
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    border-radius: 100%;
+}
+.cardheartext{
+    font-size: 1rem;
+}
+.card-head{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+.card-head-second{
+    margin-top: .2rem;
+    color: plum;
+}
+.card-body{
+    text-align: left;
+    font-size: 1rem;
+}
+@media (min-width: 675px){
+    body{
+        margin: 2rem 5rem; 
+    }
+    .topcontainer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .secondcontainer{
+        flex-direction: row;
+    }
+    .tophead{
+        width: 40%;
+        text-align: left;
+    }
+    .stargroup{
+        margin-top: 3rem;
+        width: 50%;
+        
+    }
+    .starcotain{
+        flex-direction: row;
+        margin-bottom: 1rem;
+    }
+    .star1{
+        margin-right: 4rem;
+    }
+    .star2{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .star3{
+        margin-left: 4rem;
+
+    }
+    .star,.rate{
+        margin: 0;
+        padding: 1.5rem .875rem;
+    }
+
+    .card1,.card2,.card3{
+        padding: 30px;
+    }
+    .card1,.card2{
+        margin-right: 1.5rem;  
+    }
+    .card2{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+    }
+    .card3{
+        margin-top:2rem;
+        margin-bottom: 0;
+        
+    }
+    .card1:hover{
+        background-color: red;
+    }
+
+}
